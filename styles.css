@@ -1,0 +1,95 @@
+* {
+  font-family: "Raleway" !important;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+#zmonija-text,
+#artist {
+  font-weight: 200 !important;
+}
+h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.text-block-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-block {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 3em;
+  width: 80vh;
+  border: 2px solid white;
+}
+.text-block:hover {
+  background-color: rgb(24, 24, 24);
+}
+.text-block {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
